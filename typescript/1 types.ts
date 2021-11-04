@@ -23,6 +23,11 @@ variable = [];
 
 // ====
 // function sayMyName (name: string): void{
-//     console.log(name)
+//     console.log(name);
 // }
 // sayMyName(name:'Хайзенберг')
+
+//Never
+function throwError (message: string): never{
+    throw new Error(message);
+}
