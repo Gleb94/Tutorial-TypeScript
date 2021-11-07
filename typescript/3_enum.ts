@@ -9,11 +9,11 @@ const membershipReverse = Membership[2];
 console.log(membership)
 console.log(membershipReverse)
 
-enum ocialMedia{
+enum SocialMedia{
     VK = 'VK',
     FACEBOOK = 'FACEBOOK',
     INSTAGRAM = 'INSTAGRAM'
 }
 
-const social = SocialMadia.INSTAGRAM
+const social = SocialMedia.INSTAGRAM
 console.log(social)
