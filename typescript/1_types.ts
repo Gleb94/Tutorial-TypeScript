@@ -22,12 +22,31 @@ variable = 'New String';
 variable = [];
 
 // ====
-// function sayMyName (name: string): void{
-//     console.log(name);
-// }
+function sayMyName(name: string): void{
+    console.log(name);
+}
 // sayMyName(name:'Хайзенберг')
 
 //Never
 function throwError (message: string): never{
     throw new Error(message);
 }
+
+function infinite(){
+    while (true){
+        
+    }
+}
+
+//Type
+type Login = string;
+
+const login: Login = 'admin';
+// const login2: Login = 2
+
+type ID = string | number;
+const id1: ID = 1234
+const id2: ID = '1234'
+// const id3: ID = tr
+
+type SomeType = string | null | undefined
